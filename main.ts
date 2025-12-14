@@ -5,13 +5,9 @@
  * @fileoverview program for user to input sentence then find word in sentence 
  */
 
-// set varialbles 
-let userSentence: string;
-let userWord: string;
-
 // get user input 
-userSentence = prompt("Please enter a sentence") || "No sentence entered";
-userWord = prompt("Please enter a word to search for in your sentence") || "No word entered";
+const userSentence = prompt("Please enter a sentence") || "No sentence entered";
+const userWord = prompt("Please enter a word to search for in your sentence") || "No word entered";
 
 // create if statement to find word in sentence 
 if (userSentence.includes(userWord)){
